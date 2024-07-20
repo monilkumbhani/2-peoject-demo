@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+        integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="responsiv.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+    <div class="firs-header">
+
+        <img src="image/header.jpg" alt="">
+    </div>
+
+
+
+    <div class="header-1">
+        <div class="navbar-1">
+
+            <div class="logo-1">
+                <nav class="navbar">
+
+                    <div class="navbar-container container">
+
+
+                        <input type="checkbox" name="" id="">
+
+
+                        <div class="hamburger-lines">
+                            <span class="line line1"></span>
+                            <span class="line line2"></span>
+                            <span class="line line3"></span>
+                        </div>
+
+
+                        <ul class="menu-items">
+
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#"><i style="font-size:24px" class="fa">&#xf09a;</i></a>
+                                <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                <a href=""><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                                <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <img src="image/logo-default-450x37.png" alt="">
+                </nav>
+
+
+            </div>
+
+            <ul class="links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="toggle_btn">
+                <i class="fa-solid fa-bars "></i>
+            </div>
+        </div>
+        <div class="dropdown_menu">
+
+            <li><i style="font-size: 20px;margin-right: 17px;" class="fa fa-clock-o" aria-hidden="true"></i><span
+                    style="border-right: 1px solid grey;padding-right: 0px;font-size: 20px;">9:00AM-5:00PM</span>
+            </li>
+
+            <li><i style="margin-right: 8px; font-size: 20px;" class="fa fa-phone" aria-hidden="true"></i><span
+                    style="font-size: 20px;">+0123 456 7890</span></li>
+
+            <div class="border"><a href="#">Get Free Quote</a></div>
+        </div>
+    </div>
+
+    <script>
+        const toggleBtn = document.querySelector(".toggle_btn")
+        const toggleBtnIcon = document.querySelector(".toggle_btn i")
+        const dropDownMenu = document.querySelector(".dropdown_menu")
+
+        toggleBtn.onclick = function () {
+            dropDownMenu.classList.toggle("open")
+            const isOpen = dropDownMenu.classList.contains("open")
+
+            toggleBtnIcon.classList = isOpen
+                ? "fa-solid fa-xmark" :
+                "fa-solid fa-bars";
+        }
+
+    </script>
+
+
+
+
+
+
+
+    <header>
+        <div class="container">
+            <div class="second-header">
+                <div class="col-1">
+                    <img src="image/logo-default-450x37.png" alt="">
+                </div>
+                <div class="col-2">
+                    <i style="font-size: 20px;  margin-right: 8px;" class="fa fa-clock-o" aria-hidden="true"></i><span
+                        style="border-right: 1px solid grey; padding-right: 40px; font-size: 20px;">9:00AM-5:00PM</span>
+
+                    <i style="margin-left: 29px; margin-right: 8px; font-size: 20px;" class="fa fa-phone"
+                        aria-hidden="true"></i><span style="font-size: 20px;">+0123 456 7890</span>
+                </div>
+                <div class="col-3">
+                    <a href="#">Get Free Quote</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="header-color">
+        <div class="container">
+            <div class="row-1">
+                <div class="menu">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Typograpy</a></li>
+                        <li><a href="#">Countect Us</a></li>
+                    </ul>
+                </div>
+                <div class="icone">
+                    <a href="#"><i style="font-size:24px" class="fa">&#xf09a;</i></a>
+                    <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    <a href=""><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                    <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                if ($(window).scrollTop() >= 165) {
+                    $('.header-color').addClass('fixed-header');
+                }
+                else {
+                    $('.header-color').removeClass('fixed-header');
+                }
+            });
+        });
+    </script>
+
+
+
+    <div class="slider">
+        <div class="image-container">
+            <img src="slider/slider-4-slide-1-1920x678.jpg" alt="">
+            <div class="container-title">
+                <div class="title-tour">
+                    <h6>Enjoy the Best Destinations with Our Travel Agency</h6>
+                    <h2>Explore <span> The World</span></h2>
+                    <a href="#">Get in touch</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="image-container">
+            <img src="slider/slider-4-slide-2-1920x678.jpg" alt="">
+            <div class="container-title">
+                <h6>A team of professional Travel Experts</h6>
+                <h2>Trust <span> Your Tour</span></h2>
+                <a href="#">Get in touch</a>
+            </div>
+        </div>
+
+        <div class="image-container">
+            <img src="slider/slider-4-slide-3-1920x678.jpg" alt="">
+            <div class="container-title">
+                <h6 class="animate__animated animate__fadeInDownBig">Build your Next Holiday Trip with Us</h6>
+                <h2 class="animate__animated animate__fadeInLeft">Create <span> Your Tour</span></h2>
+
+                <div class="getit">
+                    <a href="#" class="animate__animated animate__bounceInDown">Get in touch</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        $('.slider').slick({
+            slidesToScroll: 1,
+            arrows: false,
+            dots: true,
+            vertical: true,
+            verticalSwiping: true,
+            autoplay: true,
+            autoplaySpeed: 1500,
+        }); 
+    </script>
+
+
+
+    <div class="container">
+        <div class="row-2">
+
+            <div class="col-111">
+                <a href="#"><img src="image/cta-1-368x420.jpg" alt=""></a>
+                <h5 class="box-categories-title">Balloon Flights</h5>
+            </div>
+
+            <div class="col-111">
+                <a href="#"><img src="image/cta-2-368x420.jpg" alt=""></a>
+                <h5 class="box-categories-title">Mountain Holiday</h5>
+            </div>
+
+            <div class="col-111">
+                <a href="#"><img src="image/cta-3-368x420.jpg" alt=""></a>
+                <h5 class="box-categories-title">Beach Holidays</h5>
+            </div>
+
+        </div>
+        <div class="center">
+            <a class="link-classic wow fadeInUp" href="#" style="visibility: visible; animation-name: fadeInUp;">Other
+                Tours<span></span></a>
+
+        </div>
+    </div>
+
+
+
+    <div class="container">
+        <div class="row-3">
+            <div class="col-31">
+                <img src="image/new.jpg" alt="">
+            </div>
+            <div class="col-32">
+                <ul class="tabs">
+                    <li class="active-tab">First tab</li>
+                    <li>Second tab</li>
+                    <li>Third tab</li>
+                </ul>
+
+                <ul class="tabs-content">
+
+
+                    <li>
+                        <p>Wonder Tour is committed to bringing our clients the best in value and quality travel
+                            arrangements. We are passionate about travel and sharing the world's wonders with you.</p>
+                        <div class="flex-button">
+                            <a class="button button-secondary button-pipaluk color-fff" href="contact-us.html">Get in
+                                Touch</a>
+                            <a class="button button-black-outline button-md color-blue" href="about.html">Read More</a>
+                        </div>
+
+                    </li>
+
+
+                    <li>
+                        <p>We are proud to offer excellent quality and value for money in our tours, which give you the
+                            chance to experience your chosen destination in an authentic and exciting way.</p>
+                        <div class="flex-button">
+                            <a class="button button-secondary button-pipaluk color-fff" href="contact-us.html">Get in
+                                Touch</a>
+                            <a class="button button-black-outline button-md color-blue" href="about.html">Read More</a>
+                        </div>
+                    </li>
+
+
+                    <li>
+                        <p>Our mission is to provide the ultimate travel planning experience while becoming a one-stop
+                            shop for every travel service available in the industry.</p>
+                        <div class="flex-button">
+                            <a class="button button-secondary button-pipaluk color-fff" href="contact-us.html">Get in
+                                Touch</a>
+                            <a class="button button-black-outline button-md color-blue" href="about.html">Read More</a>
+                        </div>
+                    </li>
+
+
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        $(function () {
+
+            var activeIndex = $('.active-tab').index(),
+                $contentlis = $('.tabs-content li'),
+                $tabslis = $('.tabs li');
+
+            // Show content of active tab on loads
+            $contentlis.eq(activeIndex).show();
+
+            $('.tabs').on('click', 'li', function (e) {
+                var $current = $(e.currentTarget),
+                    index = $current.index();
+
+                $tabslis.removeClass('active-tab');
+                $current.addClass('active-tab');
+                $contentlis.hide().eq(index).show();
+            });
+        });
+    </script>
+
+
+
+    <div class="center">
+        <h3>Our Services</h3>
+    </div>
+
+    <div class="container">
+        <div class="row-4">
+
+            <div class="col444">
+                <div class="Personalized-Matching">
+                    <a href="#"><i style="font-size:24px" class="fa">&#xf1b9;</i>Personalized Matching</a>
+                </div>
+                <div class="p-text">
+                    <p>Our unique matching system lets
+                        you find just the tour you want for your next holiday.</p>
+                </div>
+
+            </div>
+
+
+
+            <div class="col444">
+                <div class="Personalized-Matching">
+                    <a href="#"><i style="font-size:24px" class="fa">&#xf1b9;</i>Wide Variety of Tours</a>
+                </div>
+                <div class="p-text">
+                    <p class="box-icon-classic-text">We offer a wide variety of personally picked tours with
+                        destinations all over the globe.</p>
+                </div>
+
+            </div>
+
+
+
+            <div class="col444">
+                <div class="Personalized-Matching">
+                    <a href="#"><i style="font-size:24px" class="fa">&#xf1b9;</i>Highly Qualified Service</a>
+                </div>
+                <div class="p-text">
+                    <p class="box-icon-classic-text">Our tour managers are qualified, skilled, and friendly to bring you
+                        the best service.</p>
+                </div>
+
+            </div>
+
+
+            <div class="col444">
+                <div class="Personalized-Matching">
+                    <a href="#"><i style="font-size:24px" class="fa">&#xf1b9;</i>24/7 Support</a>
+                </div>
+                <div class="p-text">
+                    <p class="box-icon-classic-text">You can always get professional support from our staff 24/7 and ask
+                        any question you have.</p>
+                </div>
+
+            </div>
+
+
+
+            <div class="col444">
+                <div class="Personalized-Matching">
+                    <a href="#"><i style="font-size:24px" class="fa">&#xf1b9;</i>Handpicked Hotels</a>
+                </div>
+                <div class="p-text">
+                    <p>Our unique matching system lets
+                        you find just the tour you want for your next holiday.</p>
+                </div>
+
+            </div>
+
+
+
+            <div class="col444">
+                <div class="Personalized-Matching">
+                    <a href="#"><i style="font-size:24px" class="fa">&#xf1b9;</i>Best Price Guarantee</a>
+                </div>
+                <div class="p-text">
+                    <p class="box-icon-classic-text">If you find tours that are cheaper than ours, we will compensate
+                        the difference.</p>
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+
+    <div class="center">
+        <h3> Hot Tours</h3>
+    </div>
+
+
+    <div class="container">
+
+        <div class="row-7">
+            <div class="col-71">
+                <img src="image/hot-1.jpg" alt="">
+            </div>
+
+            <div class="col-72">
+                <a href="#">
+                    <h1>Benidorm, Spain</h1>
+                </a>
+                <div class="star">
+                    <i class="fa-solid fa-star" style="color: #ffcc00;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffcc00;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffcc00;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffcc00;"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true" style="color: #ffcc00;"></i>
+                    <a class="product-big-reviews" href="#">4 customer reviews</a>
+                </div>
+                <div class="newp">
+                    <p class="product-big-text">Benidorm is a buzzing resort with a big reputation for beach holidays.
+                        Situated in sunny Costa Blanca, the town is one of the original Spanish beach resorts...</p>
+                </div>
+                <div class="col-311">
+                    <a href="#">buy this tour</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container">
+        <div class="row-7">
+
+            <div class="col-71">
+                <img src="image/product-big-2-600x366.jpg" alt="">
+            </div>
+
+            <div class="col-72">
+                <a href="#">
+                    <h1>Mauritius Island, Africa</h1>
+                </a>
+                <div class="star">
+                    <i class="fa-solid fa-star" style="color: #ffcc00;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffcc00;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffcc00;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffcc00;"></i>
+                    <i class="fa-solid fa-star" style="color: #ffcc00;"></i>
+                    <a class="product-big-reviews" href="#">5 customer reviews</a>
+                </div>
+                <div class="newp">
+                    <p class="product-big-text">The beautiful and inviting island nation of Mauritius is an ideal ‘flop
+                        and drop’ at the conclusion of your safari. Indulge in the delightful scents of the fragrant...
+                    </p>
+                </div>
+                <div class="col-311">
+                    <a href="#">buy this tour</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="center">
+        <h3>Different People — One Mission</h3>
+    </div>
+
+
+    <div class="container">
+        <div class="row-8">
+
+            <div class="col-811">
+                <div class="col-81">
+                    <img src="image/user-1-118x118.jpg" alt="">
+                </div>
+                <div class="col-82">
+                    <div class="col-81">
+                        <a href="#">Diana Robinson</a>
+                        <p>Founder, Owner</p>
+                        <h6><a href="#">+1 323-913-4688</a></h6>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="col-811">
+
+                <div class="col-81">
+                    <img src="image/user-2-118x118.jpg" alt="">
+                </div>
+                <div class="col-82">
+                    <div class="col-81">
+                        <a href="#">Diana Robinson</a>
+                        <p>Founder, Owner</p>
+                        <h6><a href="#">+1 323-913-4688</a></h6>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="col-811">
+
+                <div class="col-81">
+                    <img src="image/user-3-118x118.jpg" alt="">
+                </div>
+                <div class="col-82">
+                    <div class="col-81">
+                        <a href="#">Diana Robinson</a>
+                        <p>Founder, Owner</p>
+                        <h6><a href="#">+1 323-913-4688</a></h6>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="col-811">
+
+                <div class="col-81">
+                    <img src="image/user-4-118x118.jpg" alt="">
+                </div>
+                <div class="col-82">
+                    <div class="col-81">
+                        <a href="#">Diana Robinson</a>
+                        <p>Founder, Owner</p>
+                        <h6><a href="#">+1 323-913-4688</a></h6>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="bgimage">
+        <div class="image">
+            <img src="image/parallax-1-1920x850.jpg" alt="" style="display: block;">
+        </div>
+
+        <div class="text">
+            <h2>First-class Impressions</h2>
+            <h2>are Waiting for You!</h2>
+            <p>Our agency offers travelers various tours and excursions with destinations all over the world. Browse our
+                website to find your dream tour!</p>
+        </div>
+    </div>
+
+
+    <div class="footer-image">
+        <img src="image/footer.jpg">
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        <div class="footer-color">
+            <div class="container">
+                <div class="row-10">
+                    <div class="col-10">
+                        <h6 class="text-spacing-100 text-uppercase">Contact us</h6>
+                        <a href="#"><i style="font-size:24px" class="fa">&#xf095;</i>+1 323-913-4688</a>
+                        <a href="#"><i style="font-size:24px" class="fa">&#xf0e0;</i>info@demolink.org</a>
+
+                        <div class="display">
+                            <div class="icon"><i style='font-size:24px' class='fas'>&#xf062;</i></div>
+                            <div class="text-111"><a href="#">4730 Crystal Springs Dr, <br> Los Angeles, CA 90027</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-10">
+                        <h6 class="text-spacing-100 text-uppercase">Popular news</h6>
+                        <p class="post-minimal-2-title"><a href="#">Your Personal Guide to 5 Best Places to Visit on
+                                Earth</a></p>
+                        <p>May 04, 2019</p>
+                        <p class="post-minimal-2-title"><a href="#">Top 10 Hotels: Rating by Wonder Tour Travel
+                                Experts</a></p>
+
+                        <p>May 04, 2019</p>
+                    </div>
+
+
+                    <div class="col-10">
+                        <h6 class="text-spacing-100 text-uppercase">Quick links</h6>
+                        <ul class="lastul">
+                            <li><a href="about.html">About us</a></li>
+                            <li><a href="#">Our Tours</a></li>
+                            <li><a href="#">Our Team</a></li>
+                            <li><a href="#">Gallery</a></li>
+                            <li><a href="#">Blog</a></li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="footer-back">
+
+            <div class="container">
+                <div class="row-11">
+                    <div class="col-11">
+                        <p class="rights">
+                            <span>©&nbsp;</span>
+                            <span class="copyright-year">2023</span>
+                            <span>&nbsp;</span>
+                            <span>Wonder Tour</span>.
+                            All Rights Reserved.Design by
+                            <a href="#">TemplateMonster</a>
+                        </p>
+                    </div>
+
+                    <div class="col-11">
+                        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    </div>
+
+                    <div class="col-11" id="col-11">
+                        <a href="#">Privacy Policy</a>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+
+
+
+
+
+
+    </footer>
+
+
+</body>
+
+</html>

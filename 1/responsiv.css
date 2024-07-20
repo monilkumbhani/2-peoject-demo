@@ -1,0 +1,154 @@
+@media only screen and (max-width: 1270px) {
+    .firs-header {
+        display: none;
+    }
+
+    .box-categories-title {
+        left: 15px;
+        bottom: 33px;
+    }
+
+    .row-2 {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .row-2 img {
+        width: 90%;
+    }
+}
+
+
+@media only screen and (max-width: 1270px){
+    .col444{
+        width: 45%;
+    }
+}
+
+@media only screen and (max-width:992px) {
+    .header-1 {
+        display: block;
+    }
+
+    .header {
+        display: none;
+    }
+
+    .header-color {
+        display: none;
+    }
+
+    .second-header {
+        display: none;
+    }
+    
+    .navbar-1 .links,
+    .navbar-1 .action_btn {
+        display: none;
+    }
+
+    .navbar-1 .toggle_btn {
+        display: block;
+    }
+
+    .dropdown_menu {
+        display: block;
+    }
+
+
+    .container-title h6 {
+        margin-top: 70px;
+    }
+
+    .box-categories-title {
+        font-size: 16px;
+    }
+
+}
+
+@media(max-width:860px){
+    .row-7 {
+        flex-direction: column;
+    }
+
+    .col-71 {
+        width: 100%;
+        overflow: hidden;
+        transition: all .5s;
+        margin: auto;
+        display: contents;
+        object-fit: fill;
+    }
+    .col-72 {
+        padding: 100px;
+        width: 100%;
+    }
+}
+
+
+@media(max-width:786px){
+    .row-2 {
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .col-111 {
+        margin: 15px 0 0 0;
+    }
+    .row-3 {
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .col-32 {
+        width: 100%;
+    }
+    .col-31 {
+        width: 100%;
+    }
+    .col444{
+        width: 48%;
+        margin-right: 10px;
+    }
+    .col-811{
+        width: 40%;
+        margin: 0 auto;
+    }
+
+    .col-10 {
+        width: 42%;
+    }
+}
+
+@media(max-width:576px) {
+    .dropdown_menu {
+        left: 2rem;
+        width: unset;
+    }
+    .col444 {
+        width: 80%;
+        margin-right: 10px;
+        margin: 15px auto;
+    }
+    .col-10 {
+        width: 100%;
+    }
+
+    .col-11 {
+        width: 48.33%;
+    }
+    #col-11 {
+        margin-top: 27px;
+    }
+    .text p {
+        font-size: 20px;
+        width: 100%;
+        text-align: center;
+    }
+    .text h2 {
+        font-size: 21px;
+        margin: 7px;
+        text-align: center;
+    }
+}
